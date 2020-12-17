@@ -1,5 +1,15 @@
 # Final_Project_BDII_2020.1
 
+## Descrição
+
+Projeto desenvolvido como um sistema de recomendações de Filmes. Possio as funcionalidades de:
+
+- Login e Cadastro de Usuário
+- Curtir algum filme
+- Recomendar filmes baseados nos filmes curtidos
+- Descurtir filmes curtidos
+
+
 ## Instruções de Execução
 
 
@@ -27,6 +37,6 @@ Após todos os passos anteriores, dirija-se ao diretório ***web*** e execute o 
 
 
 
-## OBs.:
+## OBS.:
 
 Caso ocorra algum erro de banco de dados referente ao serviço SQLite, é possível que as tabelas não tenham sido criadas. Para resolver este erro, basta se dirigir ao diretório ***backendNeo*** e executar o comando `yarn typeorm migration:run` duas vezes.
