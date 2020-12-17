@@ -40,3 +40,12 @@ Após todos os passos anteriores, dirija-se ao diretório ***web*** e execute o 
 ## OBS.:
 
 Caso ocorra algum erro de banco de dados referente ao serviço SQLite, é possível que as tabelas não tenham sido criadas. Para resolver este erro, basta se dirigir ao diretório ***backendNeo*** e executar o comando `yarn typeorm migration:run` duas vezes.
+
+
+###### Agradecimentos especiais
+
+- Markus Kaul, pelo apoio logístico e emocional
+- Miller Raycell, pelo apoio dev
+- Tarliso Sander, pelo apoio emocional e dev
+- Josemar Rocha, pelo apoio logístico e emocional
+- Luigi Muller, pelo apoio emocional
