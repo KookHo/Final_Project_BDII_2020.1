@@ -23,3 +23,10 @@ Após iniciar os banco de dados, em cacda diretório raiz dos backends deve-se e
 ###### Inicialização da Aplicação
 
 Após todos os passos anteriores, dirija-se ao diretório ***web*** e execute o comando `npm start` para iniciar a aplicação. Em seguida, basta visitar o site ***localhost:3000*** para utilizar a aplicação.
+
+
+
+
+## OBs.:
+
+Caso ocorra algum erro de banco de dados referente ao serviço SQLite, é possível que as tabelas não tenham sido criadas. Para resolver este erro, basta se dirigir ao diretório ***backendNeo*** e executar o comando `yarn typeorm migration:run` duas vezes.
