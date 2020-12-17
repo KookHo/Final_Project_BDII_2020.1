@@ -73,7 +73,7 @@ export default function Likear() {
 
           <fieldset>
             <legend>Diga lá o filme</legend>
-            <div className="input-block">
+            <div className="like-input-block">
               <label htmlFor="film">Nome do Filme</label>
               <input
                 id="film"
@@ -83,7 +83,7 @@ export default function Likear() {
               />
             </div>
 
-            <div className="input-block">
+            <div className="like-input-block">
               <label htmlFor="gender">Gênero do Filme</label>
               <input
                 id="gender"
@@ -93,7 +93,7 @@ export default function Likear() {
               />
             </div>
 
-            <div className="input-block">
+            <div className="like-input-block">
               <label htmlFor="year">Ano do Filme</label>
               <input
                 id="year"
@@ -103,7 +103,7 @@ export default function Likear() {
               />
             </div>
 
-            <div className="input-block">
+            <div className="like-input-block">
               <label htmlFor="director">Diretor do Filme</label>
               <input
                 id="director"
@@ -115,7 +115,7 @@ export default function Likear() {
 
           </fieldset>
 
-          <button className="confirm-button" type="submit">
+          <button className="like-confirm-button" type="submit">
             Confirmar
           </button>
 

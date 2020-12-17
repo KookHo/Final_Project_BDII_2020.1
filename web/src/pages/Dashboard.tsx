@@ -31,7 +31,6 @@ export default function Dashboard(){
       <div className="dashboard-menu">
 
         <main>
-
           <div>
             <button 
               className="registerBtn" 
