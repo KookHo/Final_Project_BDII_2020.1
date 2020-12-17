@@ -49,3 +49,4 @@ Caso ocorra algum erro de banco de dados referente ao serviço SQLite, é possí
 - Tarliso Sander, pelo apoio emocional e dev
 - Josemar Rocha, pelo apoio logístico e emocional
 - Luigi Muller, pelo apoio emocional
+- Matheus Fellype, pelo apoio logístico e emocional
