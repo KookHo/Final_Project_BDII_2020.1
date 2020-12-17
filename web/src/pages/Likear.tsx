@@ -65,11 +65,11 @@ export default function Likear() {
   };
 
   return (
-    <div id="page-create-orphanage">
+    <div id="page-likear">
       
 
       <main>
-        <form onSubmit={handleSubmit} className="create-orphanage-form">
+        <form onSubmit={handleSubmit} className="likear-form">
 
           <fieldset>
             <legend>Diga lá o filme</legend>

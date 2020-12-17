@@ -1,4 +1,4 @@
-#page-create-orphanage {
+#page-likear {
   display: flex;
   height: 100vh;
   align-items: center;
@@ -9,11 +9,11 @@
   background-position: center;
 }
 
-#page-create-orphanage main {
+#page-likear main {
   flex: 1;
 }
 
-form.create-orphanage-form {
+form.likear-form {
   width: 500px;
   margin: 50px auto;
   overflow: hidden;
@@ -32,21 +32,21 @@ form.create-orphanage-form {
   z-index: 1;
 }
 
-form.create-orphanage-form .leaflet-container {
+form.likear-form .leaflet-container {
   margin-bottom: 40px;
   border: 1px solid #000000;
   border-radius: 20px;
 }
 
-form.create-orphanage-form fieldset {
+form.likear-form fieldset {
   border: 0;
 }
 
-form.create-orphanage-form fieldset + fieldset {
+form.likear-form fieldset + fieldset {
   margin-top: 80px;
 }
 
-form.create-orphanage-form fieldset legend {
+form.likear-form fieldset legend {
   width: 100%;
 
   font-size: 30px;
@@ -60,11 +60,11 @@ form.create-orphanage-form fieldset legend {
   padding-bottom: 14px;
 }
 
-form.create-orphanage-form .like-input-block + .like-input-block {
+form.likear-form .like-input-block + .like-input-block {
   margin-top: 30px;
 }
 
-form.create-orphanage-form .like-input-block label {
+form.likear-form .like-input-block label {
   display: flex;
   text-shadow: -1px 0 #000000, 0 1px  #000000, 1px 0  #000000, 0 -1px  #000000;;
 
@@ -74,15 +74,15 @@ form.create-orphanage-form .like-input-block label {
   line-height: 10px;
 }
 
-form.create-orphanage-form .like-input-block label span {
+form.likear-form .like-input-block label span {
   font-size: 14px;
   color: #000000;
   margin-left: 24px;
   line-height: 14px;
 }
 
-form.create-orphanage-form .like-input-block input,
-form.create-orphanage-form .like-input-block textarea {
+form.likear-form .like-input-block input,
+form.likear-form .like-input-block textarea {
   width: 100%;
   background: #f5f8fa;
   border: 1px solid #d3e2e5;
@@ -91,12 +91,12 @@ form.create-orphanage-form .like-input-block textarea {
   color: #000000;
 }
 
-form.create-orphanage-form .like-input-block input {
+form.likear-form .like-input-block input {
   height: 34px;
   padding: 0 16px;
 }
 
-form.create-orphanage-form .like-input-block textarea {
+form.likear-form .like-input-block textarea {
   min-height: 120px;
   max-height: 240px;
   resize: vertical;
@@ -106,7 +106,7 @@ form.create-orphanage-form .like-input-block textarea {
 
 
 
-form.create-orphanage-form button.like-confirm-button {
+form.likear-form button.like-confirm-button {
   margin-top: 64px;
 
   width: 50%;
@@ -125,10 +125,10 @@ form.create-orphanage-form button.like-confirm-button {
   transition: background-color 0.2s;
 }
 
-form.create-orphanage-form button.like-confirm-button svg {
+form.likear-form button.like-confirm-button svg {
   margin-right: 16px;
 }
 
-form.create-orphanage-form button.like-confirm-button:hover {
+form.likear-form button.like-confirm-button:hover {
   background: #ff0000b4;
 }
