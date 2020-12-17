@@ -1,0 +1,96 @@
+#dashboard {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dashboard .dashboard-menu{
+  position: relative;
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 20px;
+
+  width: 100%;
+  max-width: 500px;
+
+  height: 100%;
+  max-height: 300px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*
+#dashboard .dashboard-menu main{
+  background: #ffffff;
+
+  margin: auto;
+  margin-top: 115px;
+  text-align: center;
+  height: 100%;
+}*/
+
+.registerBtn{
+  margin-top: 25px;
+  background: #3cd648e3;
+  border: 1px solid #14b621e3;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.registerBtn:hover{
+  background: #07a514c4;
+  color: #ffffff;
+
+}
+
+.recomendationBtn{
+  margin-top: 25px;
+  border: 1px solid rgb(39, 80, 214);
+  border-radius: 5px;
+  background: #3851dfe7;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 900;
+  cursor: pointer;
+
+}
+
+.moviesBtn{
+  margin-top: 25px;
+  border: 1px solid rgb(39, 80, 214);
+  border-radius: 5px;
+  background: #3851dfe7;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 900;
+  cursor: pointer;
+
+}
+
+.recomendationBtn:hover{
+  background: #0723c2e7;
+  color: #ffffff;
+
+}
+
+
+.moviesBtn:hover{
+  background: #0723c2e7;
+  color: #ffffff;
+
+}

@@ -4,18 +4,21 @@ import React from 'react';
 import {BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Landing from './pages/landing'
-import OrphanagesMap from './pages/OrphanagesMap'
-import Orphanage from './pages/Orphanage'
-import CreateOrphanage from './pages/CreateOrphanage'
+import Listar from './pages/Listar'
+import Likear from './pages/Likear'
+import Dashboard from './pages/Dashboard'
+import Recomendations from './pages/Recomendations'
+
 
 function Routes(){
   return(
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Landing} />
-        <Route path="/app" component={OrphanagesMap} />
-        <Route path="/orphanages/create" component={CreateOrphanage} />
-        <Route path="/orphanages/:id" component={Orphanage} />
+        <Route path="/dashboard" component={Dashboard} />
+        <Route path="/recomendations" component={Recomendations} />
+        <Route path="/likear" component={Likear} />
+        <Route path="/movielist" component={Listar} />
       </Switch>
     </BrowserRouter>
   );
