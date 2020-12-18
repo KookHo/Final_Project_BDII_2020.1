@@ -34,7 +34,16 @@ Após iniciar os banco de dados, em cacda diretório raiz dos backends deve-se e
 
 Após todos os passos anteriores, dirija-se ao diretório ***web*** e execute o comando `npm start` para iniciar a aplicação. Em seguida, basta visitar o site ***localhost:3000*** para utilizar a aplicação.
 
+## Funcionamento
 
+A tela inicial será a de login, onde é possível cadastrar usuários e logar na aplicação.
+Após o login, o usuário será levado ao Dashboard, o qual contém as opções para curtir um filme, receber recomendações e visualizar os filmes curtidos.
+
+Na parte de curtir um filme, o usuário só precisa preencher os campos corretamente e conofirmar. Caso o filme não exista na base de dados ele será criado.
+
+Na parte de recomendações, o usuário receberá nomes de filmes recomendados baseados nos filmes que ele curtiu. Caso ele não tenha curtido nenhum filme, ele receberá commo recomendação os filmes mais curtidos.
+
+Por fim, na parte de visualização de filmes curtidos, o usuário poderá ver quais filmes curtiu e, se desejar, removê-los da sua likelist.
 
 
 ## OBS.:
