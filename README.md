@@ -9,6 +9,12 @@ Projeto desenvolvido como um sistema de recomendações de Filmes. Possio as fun
 - Recomendar filmes baseados nos filmes curtidos
 - Descurtir filmes curtidos
 
+Para o desenvolvimento do backend da aplicação, o mesmo foi divido em três partes, uma para cada banco de dados utilizado:
+1. SQLite: Utilizado para guardar informações de login de usuários (nome e senha)
+2. MongoDB: Utilizado para armazenar os dados dos filmes
+3. Neo4J: Utilizado para realizar a função de recomendação
+
+Para o desenvolvimento da interface Web, foi utilizada a biblioteca ReactJS do JavaScript em conjunto com o TypeScript
 
 ## Instruções de Execução
 
