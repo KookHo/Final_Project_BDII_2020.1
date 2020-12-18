@@ -28,7 +28,11 @@ Para executar o projeto, primeiramente é necessário executar o comando `npm in
 
 Em seguida, deve-se iniciar ambos os serviços de Banco de Dados do monogoDB e do Neo4J. Para o mongoDB, basta iniciar o serviço.
 
-Para o Neo4J, é necessário que se crie um novo banco de dados.No arquivo ***routes.js*** do diretório ***backendNeo/routes*** deve-se alterar a *porta* e a *senha* conforme a definida pelo serviço do Neo4J (porta ***bolt*** e a senha cadastrada ao criar o grafo).
+Para o Neo4J, é necessário que se crie um novo banco de dados.No arquivo ***routes.js*** do diretório ***backendNeo/routes*** no trecho de código: 
+```
+const driver = new neo4j.driver("neo4j://localhost:<porta>", neo4j.auth.basic("neo4j", <senha>)); //("usuario", "senha")
+```
+Deve-se alterar a os campos *<porta>* e a *<senha>* conforme a definida pelo serviço do Neo4J (porta ***bolt*** e a senha cadastrada ao criar o grafo).
 
 
 ###### Inicialização dos servidores
