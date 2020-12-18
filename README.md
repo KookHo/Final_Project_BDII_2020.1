@@ -58,8 +58,8 @@ Por fim, na parte de visualização de filmes curtidos, o usuário poderá ver q
 
 ## OBS.:
 
--Caso ocorra algum erro de banco de dados referente ao serviço SQLite, é possível que as tabelas não tenham sido criadas. Para resolver este erro, basta se dirigir ao diretório ***backendNeo*** e executar o comando `yarn typeorm migration:run` duas vezes.
--É recomendado que a aplicação seja aberta no navegador Google Chrome, pois algumas configurações CSSs não são suportadas em outros navegadores
+- Caso ocorra algum erro de banco de dados referente ao serviço SQLite, é possível que as tabelas não tenham sido criadas. Para resolver este erro, basta se dirigir ao diretório ***backendNeo*** e executar o comando `yarn typeorm migration:run` duas vezes.
+- É recomendado que a aplicação seja aberta no navegador Google Chrome, pois algumas configurações CSSs não são suportadas em outros navegadores
 
 
 ###### Agradecimentos especiais
