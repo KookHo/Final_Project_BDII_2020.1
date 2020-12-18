@@ -32,7 +32,7 @@ Para o Neo4J, é necessário que se crie um novo banco de dados.No arquivo ***ro
 ```
 const driver = new neo4j.driver("neo4j://localhost:<porta>", neo4j.auth.basic("neo4j", <senha>)); //("usuario", "senha")
 ```
-Deve-se alterar a os campos *porta* e *senha* conforme a definida pelo serviço do Neo4J (porta ***bolt*** e a senha cadastrada ao criar o grafo).
+Deve-se alterar a os campos ***porta*** e ***senha*** conforme a definida pelo serviço do Neo4J (porta ***bolt*** e a senha cadastrada ao criar o grafo).
 
 
 #### Inicialização dos servidores
